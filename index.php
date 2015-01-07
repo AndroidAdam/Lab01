@@ -6,7 +6,13 @@
     </head>
     <body>
         <?php
-        // put your code here
+        include('student.php');
+        
+        $students = array();
+        
+        foreach($students as $student)
+            echo $student->toString();
+        
         echo 'Hello out there... I live';
         ?>
     </body>
